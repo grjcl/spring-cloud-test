@@ -10,10 +10,10 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/student")
 public class UserController {
-
+//
     @Autowired
     private UserService studentRepository;
-
+//
     @GetMapping("/findAll")
     public Collection<Student> findAll() {
         return studentRepository.findAll();
