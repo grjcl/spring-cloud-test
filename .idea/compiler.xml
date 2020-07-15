@@ -9,6 +9,7 @@
         <module name="Consumer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
+        <module name="Zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
