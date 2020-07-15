@@ -10,6 +10,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/student")
 public class UserController {
+
     @Autowired
     private UserService studentRepository;
 
