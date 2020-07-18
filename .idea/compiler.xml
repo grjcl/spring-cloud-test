@@ -9,6 +9,8 @@
         <module name="Consumer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
+        <module name="Feign" />
+        <module name="Hystrix" />
         <module name="Ribbon" />
         <module name="Zuul" />
       </profile>
