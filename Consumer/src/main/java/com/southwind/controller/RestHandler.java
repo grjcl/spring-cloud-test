@@ -10,7 +10,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/con")
 public class RestHandler {
-
+public Integer password;
     @Autowired
     private RestTemplate restTemplate;
     @GetMapping("/findAll")
