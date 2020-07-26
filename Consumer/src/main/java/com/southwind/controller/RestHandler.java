@@ -19,8 +19,8 @@ public Integer password;
     @GetMapping("/findAll")
     public Collection<Student> findAll(){
 
-//        输出测试
-        System.out.println("12345614141");
+//        输出测试789456123
+        System.out.println("aaaaaaaaaaaa");
 
 
         return
