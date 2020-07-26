@@ -19,6 +19,10 @@ public Integer password;
     @GetMapping("/findAll")
     public Collection<Student> findAll(){
 
+//        输出测试
+        System.out.println("12345614141");
+
+
         return
                 restTemplate.getForEntity("http://localhost:8010/student/findAll",Collection.class).getBody();
     }
