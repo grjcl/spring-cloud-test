@@ -1,0 +1,15 @@
+Index: Consumer/src/main/java/com/southwind/controller/RestHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Consumer/src/main/java/com/southwind/controller/RestHandler.java	(date 1595752997000)
++++ Consumer/src/main/java/com/southwind/controller/RestHandler.java	(date 1595755560503)
+@@ -19,6 +19,7 @@
+     @GetMapping("/findAll")
+     public Collection<Student> findAll(){
+ 
++        System.out.println("123456");
+         return
+                 restTemplate.getForEntity("http://localhost:8010/student/findAll",Collection.class).getBody();
+     }
