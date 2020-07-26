@@ -10,7 +10,10 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/con")
 public class RestHandler {
-
+/**
+我这里修改了安安
+*/
+    public Integer username;
     @Autowired
     private RestTemplate restTemplate;
     @GetMapping("/findAll")
