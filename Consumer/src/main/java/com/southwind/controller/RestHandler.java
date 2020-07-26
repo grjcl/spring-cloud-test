@@ -10,6 +10,9 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/con")
 public class RestHandler {
+    /**
+    *改不了了
+    */
 public Integer password;
     @Autowired
     private RestTemplate restTemplate;
