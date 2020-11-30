@@ -10,17 +10,14 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/con")
 public class RestHandler {
-    /**
-    *改不了了
-    */
+
 public Integer password;
     @Autowired
     private RestTemplate restTemplate;
     @GetMapping("/findAll")
     public Collection<Student> findAll(){
 
-        return
-                restTemplate.getForEntity("http://localhost:8010/student/findAll",Collection.class).getBody();
+        return restTemplate.getForEntity("http://localhost:8010/student/findAll",Collection.class).getBody();
     }
     @GetMapping("/findAll2")
     public Collection<Student> findAll2(){
